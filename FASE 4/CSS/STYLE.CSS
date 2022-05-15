@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(58, 56, 69);
+    padding: 5px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+nav {
+    background-color: rgb(247, 204, 172);
+    padding: 1px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article{
+    background-color: rgb(198, 155, 123);
+    grid-column:1/4; ;
+}
+aside{background-color: rgb(201, 143, 99);
+    padding: 30px;
+    grid-column:4/5; 
+    color: white;
+}
+footer{
+    background-color: rgb(130, 111, 102);
+    padding: 10px;
+    color: aliceblue;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
